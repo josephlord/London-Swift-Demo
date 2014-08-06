@@ -34,6 +34,7 @@
 		BE09A66A199282DA0098BC9D /* London Swift DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "London Swift DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE09A66F199282DA0098BC9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE09A670199282DA0098BC9D /* London_Swift_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = London_Swift_DemoTests.swift; sourceTree = "<group>"; };
+		BEA03D291992E9B900952599 /* SwiftLDN.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SwiftLDN.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,10 +76,9 @@
 		BE09A65A199282D90098BC9D /* London Swift Demo */ = {
 			isa = PBXGroup;
 			children = (
-				BE09A65D199282D90098BC9D /* AppDelegate.swift */,
+				BEA03D291992E9B900952599 /* SwiftLDN.playground */,
 				BE09A65F199282D90098BC9D /* ViewController.swift */,
 				BE09A661199282D90098BC9D /* Main.storyboard */,
-				BE09A664199282D90098BC9D /* Images.xcassets */,
 				BE09A65B199282D90098BC9D /* Supporting Files */,
 			);
 			path = "London Swift Demo";
@@ -87,6 +87,8 @@
 		BE09A65B199282D90098BC9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BE09A664199282D90098BC9D /* Images.xcassets */,
+				BE09A65D199282D90098BC9D /* AppDelegate.swift */,
 				BE09A65C199282D90098BC9D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -158,6 +160,7 @@
 				TargetAttributes = {
 					BE09A657199282D90098BC9D = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = PPUD3Y4398;
 					};
 					BE09A669199282DA0098BC9D = {
 						CreatedOnToolsVersion = 6.0;
@@ -327,6 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "London Swift Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -338,6 +342,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "London Swift Demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +402,7 @@
 				BE09A676199282DA0098BC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE09A677199282DA0098BC9D /* Build configuration list for PBXNativeTarget "London Swift DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +411,7 @@
 				BE09A679199282DA0098BC9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
