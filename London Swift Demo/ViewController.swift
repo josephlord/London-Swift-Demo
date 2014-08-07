@@ -40,14 +40,19 @@ class ViewController: UIViewController {
         itemBehaviour.addAngularVelocity(0.5, forItem: blueV)
         animator.addBehavior(itemBehaviour)
         
-        
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: blueV.frame.width, height: blueV.frame.height))
+        label.textColor = UIColor.whiteColor()
+        label.textAlignment = NSTextAlignment.Center
+        label.text = "Swift London"
+        label.lineBreakMode = NSLineBreakMode.ByWordWrapping
+        label.numberOfLines = 2
+        blueV.addSubview(label)
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 
 }
 
